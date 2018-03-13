@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GuildWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GuildWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=GuildWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GuildWorld.\ Sets\ size\ of\ viewable\ world,\ removes\ window\ bounds,\r\n\ sets\ paint\ order,\ and\ calls\ prepare()\r\n\ \r\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\r\n\ Adds\ background\ and\ actors\ to\ world.\ Adds\ invisible\ ScrollObjects\ object\ so\ we\ can\ use\ it.\r\n
+comment3.params=amount
+comment3.target=void\ useScroll(int)
+comment3.text=\r\n\ Allows\ actors\ to\ access\ scroll\ method\ from\ ScrollObjects.\ Integers\ casted\ from\ player\ character\ determine\ \r\n\ scroll\ speed.\ I\ kept\ the\ code\ here\ so\ that\ actors\ could\ be\ easily\ added\ in\ one\ place.\ \r\n
+numComments=4
